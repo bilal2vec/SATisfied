@@ -1,0 +1,34 @@
+{
+	"expo": {
+		"name": "native",
+		"slug": "native",
+		"platforms": ["ios", "android", "web"],
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"hooks": {
+			"postPublish": [
+				{
+					"file": "sentry-expo/upload-sourcemaps",
+					"config": {
+						"organization": "bkkaggle",
+						"project": "native",
+						"authToken": "e7d06da3b292468e928eb0c78f11cba913ace51b882c434dae73ca8354c269e6"
+					}
+				}
+			]
+		}
+	}
+}
