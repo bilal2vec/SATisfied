@@ -9,14 +9,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bkkaggle/SATisfied"
+		"url": "git+https://github.com/bilal2vec/SATisfied"
 	},
 	"author": "Aishah Khan & Bilal Khan",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/bkkaggle/SATisfied/issues"
+		"url": "https://github.com/bilal2vec/SATisfied/issues"
 	},
-	"homepage": "https://github.com/bkkaggle/SATisfied#readme",
+	"homepage": "https://github.com/bilal2vec/SATisfied#readme",
 	"dependencies": {
 		"@sentry/node": "^5.15.5",
 		"bcrypt": "^3.0.6",

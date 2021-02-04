@@ -23,7 +23,7 @@
 				{
 					"file": "sentry-expo/upload-sourcemaps",
 					"config": {
-						"organization": "bkkaggle",
+						"organization": "bilal2vec",
 						"project": "native",
 						"authToken": "e7d06da3b292468e928eb0c78f11cba913ace51b882c434dae73ca8354c269e6"
 					}
